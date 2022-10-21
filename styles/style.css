@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav ul {
+    display: inline-flex;
+    margin-left: 180px;
+}
+
+header {
+    background-color: rgb(181, 180, 180);
+    width: 100%;
+    height: auto;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 40px 0;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    width: 250px;
+    height: 80px;
+    position: unset;
+    vertical-align: middle;
+    display: inline-block;
+    padding: 4px
+}
+
+a:hover {
+    color: rgb(17, 153, 153);
+}
